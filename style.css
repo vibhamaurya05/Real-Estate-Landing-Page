@@ -1,0 +1,616 @@
+*{
+    margin: 0;
+    padding:0;
+    
+}
+.background{
+    height: 120vh;    
+    /* border: 2px solid black; */
+    background-image: url('./Photos/mainBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;  
+    opacity: 0.9; 
+
+}
+.navbar{
+    height: 18vh;
+    width: 170vh;
+    border-bottom: 1px  solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 20vh;    
+}
+.navbar img{
+    height: 25vh;
+    width: 25vh;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 70vh;
+    /* border: 2px solid black; */
+}
+.list a{
+    font-size: 1.3rem;
+    color: beige;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+    width: 70vh;
+    /* border: 2px solid black; */
+    gap: 3rem;
+    margin-top: 15vh;
+    margin-left: 25vh;
+}
+.home h1{
+    color: white;
+    font-size: 3.5rem;
+}
+.home p{
+    color: rgb(197, 195, 195);
+    font-size: 1.2rem;
+}
+.home button{
+    height: 7vh;
+    width: 20vh;
+    background-color:rgb(22, 22, 253);
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    height: 25vh;
+    width: 160vh;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    background-color: rgb(245, 245, 245);
+    margin-left: 20vh;
+    margin-top: 17vh;
+    z-index: 1;
+}
+.logos h1{
+    font-size: 3rem;
+    color: blue;
+    margin-top: 2.5rem;
+    
+}
+.blocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: center;
+    height: 230vh;
+    /* border: 2px solid black; */
+}
+/* .heading{
+    height: 20vh;
+    width: 80vh;
+    border: 2px solid black;
+} */
+.blocks h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 10vh;
+}
+.block1{
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    width: 140vh;
+    /* border: 2px solid black; */
+    margin-left: 30vh;
+}
+.block1 .first, .second, .third{
+    height: 50vh;
+    width: 45vh;
+    /* border: 2px solid black; */
+}
+.first img{
+    height: 42vh;
+    width: 45vh;
+    border-radius: 10px;
+}
+.first .co{
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: 0.9rem;
+    height: 12vh;
+    width: 40vh;
+    /* border: 2px solid rgb(248, 33, 33); */
+    background-color: rgb(250, 248, 248);
+    border-radius: 10px;
+}
+.co h4{
+    
+    margin-top: 1.5rem;
+    color: blue;
+}
+.co button{
+    height: 6vh;
+    width: 15vh;
+    position: absolute;
+    margin-left: 20vh;
+    margin-top: -7vh;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.second img{
+    height: 42vh;
+    width: 45vh;
+    border-radius: 10px;
+}
+.second .co{
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: 0.9rem;
+    height: 12vh;
+    width: 40vh;
+    /* border: 2px solid rgb(248, 33, 33); */
+    background-color: rgb(250, 248, 248);
+    border-radius: 10px;
+}
+.co h4{
+    
+    margin-top: 1.5rem;
+    color: blue;
+}
+.co button{
+    height: 6vh;
+    width: 15vh;
+    position: absolute;
+    margin-left: 20vh;
+    margin-top: -7vh;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.third img{
+    height: 42vh;
+    width: 45vh;
+    border-radius: 10px;
+}
+.third .co{
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: 0.9rem;
+    height: 12vh;
+    width: 40vh;
+    /* border: 2px solid rgb(248, 33, 33); */
+    background-color: rgb(250, 248, 248);
+    border-radius: 10px;
+}
+.co h4{
+    
+    margin-top: 1.5rem;
+    color: blue;
+}
+.co button{
+    height: 6vh;
+    width: 15vh;
+    position: absolute;
+    margin-left: 20vh;
+    margin-top: -7vh;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.fourth img{
+    height: 42vh;
+    width: 45vh;
+    border-radius: 10px;
+}
+.fourth .co{
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: 0.9rem;
+    height: 12vh;
+    width: 40vh;
+    /* border: 2px solid rgb(248, 33, 33); */
+    background-color: rgb(250, 248, 248);
+    border-radius: 10px;
+}
+.co h4{
+    
+    margin-top: 1.5rem;
+    color: blue;
+}
+.co button{
+    height: 6vh;
+    width: 15vh;
+    position: absolute;
+    margin-left: 20vh;
+    margin-top: -7vh;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.fifth img{
+    height: 42vh;
+    width: 45vh;
+    border-radius: 10px;
+}
+.fifth .co{
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: 0.9rem;
+    height: 12vh;
+    width: 40vh;
+    /* border: 2px solid rgb(248, 33, 33); */
+    background-color: rgb(250, 248, 248);
+    border-radius: 10px;
+}
+.co h4{
+    
+    margin-top: 1.5rem;
+    color: blue;
+}
+.co button{
+    height: 6vh;
+    width: 15vh;
+    position: absolute;
+    margin-left: 20vh;
+    margin-top: -7vh;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.sixth img{
+    height: 42vh;
+    width: 45vh;
+    border-radius: 10px;
+}
+.sixth .co{
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: 0.9rem;
+    height: 12vh;
+    width: 40vh;
+    /* border: 2px solid rgb(248, 33, 33); */
+    background-color: rgb(250, 248, 248);
+    border-radius: 10px;
+}
+.co h4{
+    
+    margin-top: 1.5rem;
+    color: blue;
+}
+.co button{
+    height: 6vh;
+    width: 15vh;
+    position: absolute;
+    margin-left: 20vh;
+    margin-top: -7vh;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.seventh img{
+    height: 42vh;
+    width: 45vh;
+    border-radius: 10px;
+}
+.seventh .co{
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: 0.9rem;
+    height: 12vh;
+    width: 40vh;
+    /* border: 2px solid rgb(248, 33, 33); */
+    background-color: rgb(250, 248, 248);
+    border-radius: 10px;
+}
+.co h4{
+    
+    margin-top: 1.5rem;
+    color: blue;
+}
+.co button{
+    height: 6vh;
+    width: 15vh;
+    position: absolute;
+    margin-left: 20vh;
+    margin-top: -7vh;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.eighth img{
+    height: 42vh;
+    width: 45vh;
+    border-radius: 10px;
+}
+.eighth .co{
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: 0.9rem;
+    height: 12vh;
+    width: 40vh;
+    /* border: 2px solid rgb(248, 33, 33); */
+    background-color: rgb(250, 248, 248);
+    border-radius: 10px;
+}
+.co h4{
+    
+    margin-top: 1.5rem;
+    color: blue;
+}
+.co button{
+    height: 6vh;
+    width: 15vh;
+    position: absolute;
+    margin-left: 20vh;
+    margin-top: -7vh;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.ninth img{
+    height: 42vh;
+    width: 45vh;
+    border-radius: 10px;
+}
+.ninth .co{
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: 0.9rem;
+    height: 12vh;
+    width: 40vh;
+    /* border: 2px solid rgb(248, 33, 33); */
+    background-color: rgb(250, 248, 248);
+    border-radius: 10px;
+}
+.co h4{
+    
+    margin-top: 1.5rem;
+    color: blue;
+}
+.co button{
+    height: 6vh;
+    width: 15vh;
+    position: absolute;
+    margin-left: 20vh;
+    margin-top: -7vh;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.block2{
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    width: 140vh;
+    /* border: 2px solid black; */
+    margin-left: 30vh;
+}
+.block2 .fourth, .fifth, .sixth{
+    height: 50vh;
+    width: 45vh;
+    /* border: 2px solid black; */
+}
+.block3{
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    width: 140vh;
+    /* border: 2px solid black; */
+    margin-left: 30vh;
+}
+.block3 .seventh, .eighth, .ninth{
+    height: 50vh;
+    width: 45vh;
+    /* border: 2px solid black; */
+}
+
+.doub{
+    height: 150vh;    
+    /* border: 2px solid black; */
+}
+.left , .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+    /* border: 2px solid rgb(247, 19, 19); */
+    
+}
+.one, .two{
+    display: flex;
+    /* flex-direction: column; */
+    height: 65vh;
+    width: 100vh;
+    
+    /* border: 2px solid black; */
+}
+.one img{
+    
+    margin-top: 10vh;
+    height: 60vh;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 65vh;
+    width: 100vh;
+    /* border: 2px solid black; */
+}
+.two h1{
+    font-size: 4rem;
+}
+.two button{
+    height: 7vh;
+    width: 19vh;
+    border-radius: 25px;
+    color: white;
+    background-color: blue;
+    border: none;
+}
+.two img{
+    margin-left: 30vh;
+    margin-top: 10vh;
+    height: 60vh;
+    width: 70vh;
+}
+.right .one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 65vh;
+    width: 100vh;
+    /* border: 2px solid black; */
+}
+.right .one h1{
+    font-size: 4rem;
+    margin-left: 30vh;
+}
+.right .one button{
+    height: 7vh;
+    width: 19vh;
+    margin-left: 30vh;
+    border-radius: 25px;
+    color:white;
+    background-color: blue;
+    border: none;
+}
+.right .one p{
+    margin-left: 30vh;
+}
+
+.subscribe{
+    height: 80vh;    
+    /* border: 2px solid black; */
+}
+.blue{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60vh;
+    width: 160vh;
+    /* border: 2px solid blue; */
+    background-color: rgb(24, 24, 252);
+    margin-top: 10vh ;
+    margin-left: 24vh;
+    border-radius: 55px;
+}
+.blue h1{
+    font-size: 3rem;
+    color: white;
+}
+.blue p{
+    font-size: 1rem;
+    color: white;
+}
+.box{
+    height: 10vh;
+    width: 70vh;
+    /* border: 2px solid black; */
+}
+/* .box img{
+    height: 5vh;
+} */
+.box input{
+    height: 6vh;
+    width: 50vh;
+    border-radius: 15px;
+    background-color: rgb(140, 140, 243);
+    border: none;
+}
+.box button{
+    height: 6.5vh;
+    width: 15vh;
+    border-radius: 15px;
+    color: blue;
+    border: none;
+}
+
+
+
+footer{
+    height: 300px;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Logo{
+    height: 180px;
+    width: 220px;
+    
+    
+}
+.trio{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2.5rem;
+    height: 40vh;
+    width: 100vh;
+    /* border: 2px solid black; */
+}
+.Location{
+    height: 220px;
+    width: 220px;
+    
+    
+}
+.Contact{
+    height: 200px;
+    width: 220px;
+    
+    
+}
+.Legal{
+    height: 200px;
+    width: 220px;
+    
+    
+}
+.contact{
+    height: 200px;
+    width: 220px;
+    
+       
+}
+.contact p{
+    margin-top: 1rem;
+}
+h5{
+    font-size: 1.3rem;
+    color: rgb(14, 14, 13);
+}
+li{
+    list-style: none;
+    font-size: 1.1rem;
+    gap: 15px;
+    color: rgb(90, 89, 89);
+    margin-top: 1rem;
+}
+.foot-icons{
+    height: 40px;
+    width: 150px;
+    margin-top: 1rem;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.Logo p{
+    margin-top: 1.5rem;
+}
